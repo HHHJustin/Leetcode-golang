@@ -1,3 +1,5 @@
+package main
+
 func twoSum(nums []int, target int) []int {
 	hashmap := make(map[int]int)
 	var x int
@@ -20,19 +22,19 @@ func twoSum(nums []int, target int) []int {
 //          ^ -> if target - nums[index] = 2 in map
 // -> yes : return [map[target - nums[index], index]
 
-func twoSum(nums []int, target int) []int {
-	var answer [2]int
-	for i := 0; i < len(nums); i++ {
-		for j := i + 1; j < len(nums); j++ {
-			if nums[i]+nums[j] == target {
-				answer[0] = i
-				answer[1] = j
-				break
-			}
-		}
-	}
-	return answer[0:2]
-}
+// func twoSum(nums []int, target int) []int {
+// 	var answer [2]int
+// 	for i := 0; i < len(nums); i++ {
+// 		for j := i + 1; j < len(nums); j++ {
+// 			if nums[i]+nums[j] == target {
+// 				answer[0] = i
+// 				answer[1] = j
+// 				break
+// 			}
+// 		}
+// 	}
+// 	return answer[0:2]
+// }
 
 // 暴力法： nums = [2, 7, 11, 15]
 //                 ^  ^
