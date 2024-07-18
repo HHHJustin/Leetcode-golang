@@ -28,3 +28,5 @@ func removeElement(nums []int, val int) int {
 //                  ^i.   ^j. -> if nums[j] != val -> nums[i] = nums[j], i++, j++
 // ...
 // return i -> i represents the number of elements in the array
+// space complexity : O(1)
+// time complexity : O(N)

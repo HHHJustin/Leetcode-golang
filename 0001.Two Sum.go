@@ -21,6 +21,8 @@ func twoSum(nums []int, target int) []int {
 //  nums[2, 7, 11, 15]
 //          ^ -> if target - nums[index] = 2 in map
 // -> yes : return [map[target - nums[index], index]
+// space complexity : O(N)
+// time complexity : O(N)
 
 // func twoSum(nums []int, target int) []int {
 // 	var answer [2]int
@@ -39,3 +41,5 @@ func twoSum(nums []int, target int) []int {
 // 暴力法： nums = [2, 7, 11, 15]
 //                 ^  ^
 //                 i. j.  -> if nums[i] + nums[j] == target -> return [i, j]
+// space complexity : O(1)
+// time complexity : O(N^2)

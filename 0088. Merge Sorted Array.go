@@ -66,3 +66,6 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 //                  ^ i                   ^ j
 // -> if nums1[i] <= nums2[j] -> i++ len_nums1 --
 // -> len_nums1 == 0 將剩餘nums2後面都填到nums1後
+
+// space complexity : O(1)
+// time complexity : O(M + N)
