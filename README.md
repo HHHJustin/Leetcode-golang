@@ -12,3 +12,6 @@ Save my golang Leetcode solution
 0080. Remove Duplicates from Sorted Array II (Medium)
 0169. Majority Element (Easy)
 0189. Rotate Array (Medium)
+0121. Best Time to Buy and Sell Stock
+0122. Best Time to Buy and Sell Stock II
+0055. Jump Game
