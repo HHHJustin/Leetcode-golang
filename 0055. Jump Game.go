@@ -25,3 +25,6 @@ func canJump(nums []int) bool {
 //            ^ i         if(nums[i] + i > max + i) -> max = nums[i]
 //                            3 + 1 = 4 > 1 + 1 -> max = nums[i], represent I can jump to index 4
 // once max < 0 -> break -> return false -> else return true
+
+// space complexity :O(1)
+// time complexity :O(N)
