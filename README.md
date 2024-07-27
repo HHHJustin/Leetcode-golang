@@ -15,3 +15,6 @@ Save my golang Leetcode solution
 0121. Best Time to Buy and Sell Stock
 0122. Best Time to Buy and Sell Stock II
 0055. Jump Game
+0045. Jump Game II
+0274. H-Index
+0380. Insert Delete GetRandom O(1)
